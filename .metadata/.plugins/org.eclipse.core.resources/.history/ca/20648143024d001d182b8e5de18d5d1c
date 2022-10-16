@@ -1,0 +1,4 @@
+spring.jpa.hibernate.ddl-auto=create-drop
+server.port=8089
+spring.security.user.name = swathi
+spring.security.user.password = test

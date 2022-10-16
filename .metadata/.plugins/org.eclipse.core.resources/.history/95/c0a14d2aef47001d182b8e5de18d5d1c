@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head lang="en">
+
+    <title>Mahesh Retail Store</title>
+
+    <!--/*/ <th:block th:include="fragments/headerinc :: head"></th:block> /*/-->
+</head>
+<body>
+<div class="container">
+   
+   
+       
+        <table class="table table-striped">
+           
+            <tr>                
+                <td th:text="${productiddelete.id}">Product Id Deleted</td>               
+            </tr>
+        </table>
+
+    
+</div>
+
+</body>
+</html>
